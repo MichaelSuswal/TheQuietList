@@ -1,0 +1,23 @@
+name: sketchbook
+# Optional. Draws any pending requests in player/sketches/requests/ and commits the pictures.
+# Add an OPENAI_API_KEY repository secret to turn it on. Without it the job exits quietly.
+on:
+  push:
+    paths: ["player/sketches/requests/*.json"]
+  workflow_dispatch:
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/sketch.py
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      - run: |
+          git config user.name "sketchbook"
+          git config user.email "sketchbook@users.noreply.github.com"
+          git add -A player/sketches
+          git diff --cached --quiet || git commit -m "Sketchbook: new pictures"
+          git push
