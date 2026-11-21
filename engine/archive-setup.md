@@ -13,6 +13,6 @@ This edition keeps the whole game in a private GitHub repository that you, the n
 
 **A4. Record the campaign.** Fill `state/campaign.json` (player name, language, dice mode, started date) as those decisions are made during the startup sequence, and commit. From here on, every commit message starts with the in-game day, like `day 3: the funeral, the ruling`.
 
-**Then run the STARTUP SEQUENCE below, with one change at STEP 3:** after the intake (Beat 3), before the hunt begins, write `player/intake.md` (who she is, body, skills, covers, the husband's and her surnames, the sister, the player's name choice) and **run the case-writer** (§ THE SEALED CASE). Do not begin Day 1 of the hunt until the case exists.
+**Then run the STARTUP SEQUENCE below, with two changes.** At STEP 0, write the profile to `player/profile.md` and commit it; the checker flags a campaign without one. At STEP 3, after the intake (Beat 3) and before the hunt begins, write `player/intake.md` (who she is, body, skills, covers, the husband's and her surnames, the sister, the player's name choice, the mirror mode) and **run the case-writer** (§ THE SEALED CASE). Do not begin Day 1 of the hunt until the case exists.
 
 ---

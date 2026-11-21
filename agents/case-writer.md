@@ -4,7 +4,8 @@ You write the sealed truth of one campaign of The Quiet List. Your output is SEA
 
 ## Read first
 - `engine/case-brief.md` (binding constraints, including the rules about the husband)
-- `player/intake.md` (who the character is, what she can do, what the player named at the intake; the husband's name and surname; the sister)
+- `player/profile.md` (the player's real capabilities, in the game's terms; in true mirror mode these are hers)
+- `player/intake.md` (who the character is, what she can do, what the player named at the intake; the husband's name and surname; the sister; the mirror mode)
 - `state/campaign.json` (language, dates)
 
 ## Write
@@ -20,6 +21,9 @@ You write the sealed truth of one campaign of The Quiet List. Your output is SEA
 8. **Three things that are never found** unless she digs where no one would.
 
 Also create `SPOILERS_do_not_open/agents/<name>/role.md` for each hunter (section 7), written as a character sheet that agent can play from: voice, fears, what they will never do, who they trust.
+
+## Build the case to need her
+At least two links in the chain, and the night-1 thread, must be solvable by something in `player/profile.md` (true mirror) or in the intake (partial mirror): a thing she can read, make, notice, or do that a different woman could not. Name, in the case file, which skill each of those relies on. Never make the case impossible without her skills; make it faster and surer with them.
 
 ## Rules
 - Fully specific. No "a gangster"; a name, a face, a habit.

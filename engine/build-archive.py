@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regenerates the_quiet_list_v2_0_archive.md from the Standard file plus the two
+"""Regenerates the_quiet_list_v2_1_archive.md from the Standard file plus the two
 archive parts, so the core rules never drift between editions.
 
 Run from the repository root: python3 engine/build-archive.py

@@ -2,6 +2,7 @@
 
 Everything here is Seah's own knowledge, readable any time.
 
+- `profile.md`: the game's private sketch of the real you, capabilities only, written before the first scene. You may read it; the narrator never quotes it.
 - `case-file.md`: the investigator's pages. Confirmed, suspected, open questions, leads.
 - `the-list.md`: the quiet list. Names she has sentenced, in her own hand, with the date each went down.
 - `who.md`: who's who, one card per recurring figure (look, tag, role, what she knows).

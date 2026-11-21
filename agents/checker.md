@@ -4,6 +4,7 @@ You run after every sleep turn and before any morning. You read everything, incl
 
 ## Read
 - `checks/failures-checklist.md`
+- `player/profile.md` and `player/intake.md` (a campaign without a profile is a failure in itself)
 - `state/save.md`, `state/rulings.md`, `state/corrections.md`, `state/events.jsonl`
 - `player/chronicle/` (the last two days), `player/who.md`, `player/case-file.md`, `player/the-list.md`, `player/next-rung.md`
 - `SPOILERS_do_not_open/case/case.md` and every hunter's `sheet.md`

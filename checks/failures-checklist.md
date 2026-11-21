@@ -39,5 +39,11 @@ Built from the mistakes logged in the game's first playthroughs. The continuity 
 24. Was a missed consequential clue allowed to die without resurfacing through another channel?
 25. Is there no lit next rung, or more than one?
 
+## The player's knowledge
+26. Was a character, place, custom or term treated as already known to the player on its first appearance?
+27. Did the first status line appear without the count being explained?
+28. Is `player/profile.md` missing, or does it contain beliefs, health, politics, other games, or anything not about capability?
+29. In true mirror mode, did the intake ignore the profile; in partial mirror mode, did the profile leak skills into the character?
+
 ## Growth
 When a kind of mistake recurs that no check covers, the narrator proposes a new check in (oog); the player approves; it is added here and logged in `state/changelist.md`.
